@@ -84,3 +84,59 @@
 //Console.WriteLine("total numbers sum is "+sum);
 
 
+
+
+using System;
+
+//public int FinalValueAfterOperations(string[] operations)
+{
+    int X = 0;
+    string[] ope = ["--X", "X++", "X++"];
+
+    foreach (string o in ope)
+    {
+        X = X + Convert.ToInt32(o);
+    }
+    Console.WriteLine(X);
+}
+
+
+
+//    char x =' ';
+//    int count = 0;
+//    Console.WriteLine("Enter number for word you want to enter");
+//    int num = Convert.ToInt32(Console.ReadLine());
+//    int[] arr =new int[num];
+//    string[] words =new string[num];
+//    Console.WriteLine("Enter word");
+//for (int i = 0; i < num; i++)
+//    {
+//        words[i] = Console.ReadLine();
+//}
+
+//    Console.WriteLine("Which char you are finding");
+//x = Convert.ToChar(Console.ReadLine());
+
+//for (int i = 0; i < words.Length; i++)
+//    {
+//    bool ismatch = true;
+//        foreach(char j in words[i])
+//        {
+//            if (x == j)
+//            {
+//                ismatch = false;
+//                break;
+//            }
+//        }
+//         if (ismatch==false)
+//         {
+//             arr[count] = i;
+//                count++;
+//            }
+//    }
+
+//    Console.WriteLine("index value match is");
+//    foreach (int c in arr)
+//    {
+//    Console.WriteLine(c); 
+//    }
